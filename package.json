@@ -1,0 +1,23 @@
+{
+  "name": "jegannaathan-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Jegannaathan S.J",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Build complete'",
+    "generate-resume": "node generate-pdf.js"
+  },
+  "keywords": [
+    "portfolio",
+    "web development",
+    "full stack"
+  ],
+  "author": "Jegannaathan S.J",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7",
+    "puppeteer": "^25.11.0"
+  }
+}
