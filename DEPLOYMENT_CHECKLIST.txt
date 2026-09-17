@@ -1,0 +1,105 @@
+═══════════════════════════════════════════════════════
+    📋 PORTFOLIO DEPLOYMENT CHECKLIST
+═══════════════════════════════════════════════════════
+
+Check off each step as you complete it:
+
+═══════════════════════════════════════════════════════
+STEP 1: GITHUB REPOSITORY
+═══════════════════════════════════════════════════════
+
+☐ Opened https://github.com/new
+☐ Created repository named "portfolio"
+☐ Set visibility to Public
+☐ Did NOT check any boxes
+☐ Clicked "Create repository"
+☐ Copied repository URL
+   
+   My repo URL: _________________________________
+
+═══════════════════════════════════════════════════════
+STEP 2: PUSH TO GITHUB
+═══════════════════════════════════════════════════════
+
+☐ Double-clicked deploy-step2-push.bat
+☐ Entered repository URL
+☐ Push completed successfully
+☐ Verified files on GitHub
+☐ Can see index.html, style.css, etc.
+
+═══════════════════════════════════════════════════════
+STEP 3: VERCEL DEPLOYMENT
+═══════════════════════════════════════════════════════
+
+Part A: Account Setup
+☐ Opened https://vercel.com
+☐ Signed up / Logged in with GitHub
+☐ Authorized Vercel
+
+Part B: Import Repository
+☐ Clicked "Add New..." → "Project"
+☐ Found "portfolio" in list
+☐ Clicked "Import"
+
+Part C: Environment Variables
+☐ Got Gmail App Password from:
+   https://myaccount.google.com/apppasswords
+☐ Added EMAIL_PASSWORD (no spaces!)
+☐ Added EMAIL_USER (jegannaathan4@gmail.com)
+☐ Added NODE_ENV (production)
+
+Part D: Deploy
+☐ Clicked "Deploy"
+☐ Waited for build to complete
+☐ Saw success message
+☐ Clicked on live URL
+
+═══════════════════════════════════════════════════════
+STEP 4: TESTING
+═══════════════════════════════════════════════════════
+
+☐ Website loads correctly
+☐ Hero section displays
+☐ About section works
+☐ Experience timeline shows
+☐ Projects display correctly
+☐ Contact form is visible
+☐ Tested contact form:
+   ☐ Filled all fields
+   ☐ Clicked "Send Message"
+   ☐ Saw success message
+   ☐ Received email
+   ☐ Sender got confirmation
+
+═══════════════════════════════════════════════════════
+FINAL DETAILS
+═══════════════════════════════════════════════════════
+
+My Live URLs:
+
+GitHub: https://github.com/_______________/portfolio
+
+Vercel: https://________________________.vercel.app
+
+Deployment Date: __________________
+
+═══════════════════════════════════════════════════════
+🎉 DEPLOYMENT COMPLETE!
+═══════════════════════════════════════════════════════
+
+Share your portfolio:
+☐ Added to LinkedIn profile
+☐ Added to resume
+☐ Shared with friends/family
+☐ Added to GitHub profile
+☐ Updated email signature
+
+═══════════════════════════════════════════════════════
+
+Notes:
+_____________________________________________________
+_____________________________________________________
+_____________________________________________________
+_____________________________________________________
+
+═══════════════════════════════════════════════════════

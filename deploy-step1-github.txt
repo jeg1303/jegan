@@ -1,0 +1,30 @@
+═══════════════════════════════════════════════════════
+  STEP 1: CREATE GITHUB REPOSITORY
+═══════════════════════════════════════════════════════
+
+1. Open this URL in your browser:
+   👉 https://github.com/new
+
+2. Fill in the form:
+   Repository name: portfolio
+   Description: My professional portfolio website
+   Visibility: ✓ Public
+   
+3. DO NOT check these boxes:
+   ☐ Add a README file
+   ☐ Add .gitignore
+   ☐ Choose a license
+
+4. Click the green "Create repository" button
+
+5. After creating, you'll see a page with commands.
+   COPY your repository URL. It looks like:
+   https://github.com/YOUR_USERNAME/portfolio.git
+
+6. Save your repository URL here:
+   _____________________________________________
+
+═══════════════════════════════════════════════════════
+
+After completing this step, proceed to:
+deploy-step2-push.txt

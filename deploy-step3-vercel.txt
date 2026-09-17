@@ -1,0 +1,123 @@
+═══════════════════════════════════════════════════════
+  STEP 3: DEPLOY TO VERCEL
+═══════════════════════════════════════════════════════
+
+PART A: SIGN UP / LOGIN
+─────────────────────────────────────────────────────
+
+1. Open: https://vercel.com
+
+2. Click "Sign Up" (or "Log In" if you have an account)
+
+3. Choose "Continue with GitHub"
+
+4. Authorize Vercel to access your GitHub account
+
+═══════════════════════════════════════════════════════
+
+PART B: IMPORT YOUR REPOSITORY
+─────────────────────────────────────────────────────
+
+1. On Vercel Dashboard, click "Add New..." → "Project"
+
+2. You'll see a list of your GitHub repositories
+
+3. Find "portfolio" in the list
+
+4. Click "Import" next to it
+
+═══════════════════════════════════════════════════════
+
+PART C: CONFIGURE PROJECT
+─────────────────────────────────────────────────────
+
+Framework Preset: Other (leave as is)
+
+Root Directory: ./ (leave as is)
+
+Build Command: npm install (leave as is)
+
+Environment Variables: Click "Add" and add these:
+
+┌─────────────────┬──────────────────────────────┐
+│ Name            │ Value                         │
+├─────────────────┼──────────────────────────────┤
+│ EMAIL_PASSWORD  │ [Your Gmail App Password]     │
+│ EMAIL_USER      │ jegannaathan4@gmail.com       │
+│ NODE_ENV        │ production                    │
+└─────────────────┴──────────────────────────────┘
+
+⚠️ IMPORTANT: Gmail App Password
+   Get it from: https://myaccount.google.com/apppasswords
+   
+   Steps:
+   1. Enable 2-Factor Authentication first
+   2. Go to App Passwords link above
+   3. Select "Mail" → "Other"
+   4. Type: "Portfolio"
+   5. Click "Generate"
+   6. Copy the 16-character password (no spaces!)
+
+═══════════════════════════════════════════════════════
+
+PART D: DEPLOY
+─────────────────────────────────────────────────────
+
+1. After adding environment variables, click "Deploy"
+
+2. Wait 1-2 minutes for deployment
+
+3. You'll see: "Your project is live!" 🎉
+
+4. Click on the URL to see your live website!
+
+═══════════════════════════════════════════════════════
+
+PART E: TEST YOUR WEBSITE
+─────────────────────────────────────────────────────
+
+1. Open your Vercel URL (e.g., https://portfolio-xxx.vercel.app)
+
+2. Check all sections work:
+   ✓ Hero section loads
+   ✓ About section displays
+   ✓ Projects show correctly
+   ✓ Contact form works
+
+3. Test the contact form:
+   - Fill in all fields
+   - Click "Send Message"
+   - You should receive email at jegannaathan4@gmail.com
+   - Sender should receive confirmation email
+
+═══════════════════════════════════════════════════════
+
+YOUR LIVE URLS:
+─────────────────────────────────────────────────────
+
+GitHub: https://github.com/YOUR_USERNAME/portfolio
+Vercel: https://your-project.vercel.app
+
+Write them here:
+_________________________________________________
+_________________________________________________
+
+═══════════════════════════════════════════════════════
+
+🎉 CONGRATULATIONS! YOUR PORTFOLIO IS LIVE!
+
+═══════════════════════════════════════════════════════
+
+TROUBLESHOOTING:
+
+If contact form doesn't work:
+1. Go to Vercel Dashboard → Your Project → Settings
+2. Click "Environment Variables"
+3. Verify EMAIL_PASSWORD is set correctly
+4. Click "Redeploy" at the top
+
+If page shows 404:
+1. Check vercel.json exists in your repository
+2. Redeploy the project
+
+═══════════════════════════════════════════════════════
